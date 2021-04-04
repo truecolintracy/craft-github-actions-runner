@@ -1,0 +1,46 @@
+{
+    "name": "progressmfg/github-actions-runner",
+    "description": "Run a github action remotely from inside Craft CMS",
+    "type": "craft-plugin",
+    "version": "0.1.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "github actions runner"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Colin Tracy",
+            "homepage": "https://www.colintracy.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "^3.2.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "progressmfg\\githubactionsrunner\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Github Actions Runner",
+        "handle": "github-actions-runner",
+        "developer": "Colin Tracy",
+        "developerUrl": "https://www.colintracy.com",
+        "documentationUrl": "???",
+        "changelogUrl": "???",
+        "class": "progressmfg\\githubactionsrunner\\GithubActionsRunner"
+    }
+}
