@@ -32,7 +32,7 @@ modules:
       migrations: []
       plugins:
         github-actions-runner:
-          class: '\progressmfg\githubactionsrunner\GithubActionsRunner'
+          class: '\aisleng\githubactionsrunner\GithubActionsRunner'
           handle: github-actions-runner
       cleanup: true
       transaction: true

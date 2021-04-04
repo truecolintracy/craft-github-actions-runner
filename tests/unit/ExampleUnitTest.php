@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Github Actions Runner plugin for Craft CMS 3.x
  *
@@ -8,12 +9,12 @@
  * @copyright Copyright (c) 2021 Colin Tracy
  */
 
-namespace progressmfg\githubactionsrunnertests\unit;
+namespace aisleng\githubactionsrunnertests\unit;
 
 use Codeception\Test\Unit;
 use UnitTester;
 use Craft;
-use progressmfg\githubactionsrunner\GithubActionsRunner;
+use aisleng\githubactionsrunner\GithubActionsRunner;
 
 /**
  * ExampleUnitTest

@@ -1,6 +1,6 @@
 <?php
 
-namespace progressmfg\githubactionsrunnertests\acceptance;
+namespace aisleng\githubactionsrunnertests\acceptance;
 
 use Craft;
 use FunctionalTester;
